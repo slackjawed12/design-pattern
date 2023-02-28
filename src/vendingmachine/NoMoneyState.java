@@ -1,4 +1,4 @@
-package statepattern;
+package vendingmachine;
 
 public class NoMoneyState implements State {
 

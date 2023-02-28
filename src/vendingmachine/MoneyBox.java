@@ -1,4 +1,4 @@
-package statepattern;
+package vendingmachine;
 
 public class MoneyBox {
     int money;

@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cfe95be-bddd-482b-a52a-af04400d640c" name="Changes" comment="state pattern - 자판기 예제">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sa/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sa/BusApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sa/BusState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sa/Route.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sa/Taxi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sa/TaxiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sa/Transport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sa/passenger/BusPassenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sa/passenger/Passenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sa/passenger/TaxiPassenger.java" afterDir="false" />
+    <list default="true" id="7cfe95be-bddd-482b-a52a-af04400d640c" name="Changes" comment="first commit&#10;버스, 택시 구현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +42,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/SpringStudy/servlet",
+    "last_opened_file_path": "C:/design-pattern",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -72,11 +63,11 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="statepattern.Client" />
+      <option name="MAIN_CLASS_NAME" value="vendingmachine.Client" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="statepattern.*" />
+          <option name="PATTERN" value="vendingmachine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,7 +92,9 @@
       <updated>1677107606399</updated>
       <workItem from="1677107607781" duration="7565000" />
       <workItem from="1677199293594" duration="13109000" />
-      <workItem from="1677224865484" duration="3782000" />
+      <workItem from="1677224865484" duration="3837000" />
+      <workItem from="1677240407056" duration="1040000" />
+      <workItem from="1677594756002" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1677107873318</created>
@@ -124,13 +117,24 @@
       <option name="project" value="LOCAL" />
       <updated>1677114704945</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first commit&#10;버스, 택시 구현">
+      <created>1677228773771</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677228773771</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="state pattern - 자판기 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="state pattern - 자판기 예제" />
+    <MESSAGE value="first commit&#10;버스, 택시 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit&#10;버스, 택시 구현" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package statepattern;
+package vendingmachine;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

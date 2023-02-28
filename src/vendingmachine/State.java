@@ -1,4 +1,4 @@
-package statepattern;
+package vendingmachine;
 
 public interface State {
     void insertCoin(int x, VendingMachine vm);
